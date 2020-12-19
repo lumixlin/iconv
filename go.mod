@@ -1,3 +1,3 @@
-module github.com/lumixlin/iconv-go
+module github.com/djimenez/iconv-go
 
 go 1.15
