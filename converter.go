@@ -15,8 +15,10 @@ size_t call_iconv(iconv_t ctx, char *in, size_t *size_in, char *out, size_t *siz
 
 */
 import "C"
-import "syscall"
-import "unsafe"
+import (
+	"syscall"
+	"unsafe"
+)
 
 type Converter struct {
 	context C.iconv_t
